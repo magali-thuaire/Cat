@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+    <html lang="fr">
+        <head>
+        	<!-- Titre de l'onglet -->
+        	<title>OhMyCats !</title>
+            <!-- Utilisation de l'unicode -->
+            <meta charset="UTF-8">
+            <!-- Bootstrap CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <!-- Police -->
+            <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+            <!-- CSS local -->
+        	<link href="css/style.css" rel="stylesheet" type="text/css">
+        </head>
+        <body>
+            <header>
+                <!-- Barre de navigation -->
+                <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+                    <!-- Bootstrap - container -->
+                    <div class="container">
+                        <!-- Bootstrap - row -->
+                        <div class="row">
+                            <!-- Bootstrap - col-1 -->
+                            <div class="col-12 col-lg-6">
+                                <!-- Titre de la barre -->
+                                <a href="index.html" class="navbar-brand" id="navbar-brand">OhMyCats !</a>
+                            <!-- ./Bootstrap - col-1 -->
+                            </div>
+                        <!-- ./Bootstrap - row -->
+                        </div>
+                    <!-- ./Bootstrap - container -->
+                    </div>
+                </nav> 
+                <!-- Titre principal de la page -->
+                <section id="title">
+                    <h1>Adoptez un chat trop bon !</h1>
+                </section>                
+            </header>
+
+            <main>
+                <!-- Formulaire -->
+                <section id="the_cats">
+                    <!-- Bootstrap - container -->
+                    <div class="container">
+                        <!-- Bootstrap - row -->
+                        <div class="row flex-lg-row-reverse">
+                            <!-- Bootstrap - col-1 -->
+                            <article class="col-12 col-lg-8">
+                                <!-- Caroussel -->
+                                 <div id="carousel" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carousel" data-slide-to="1"></li>
+                                            <li data-target="#carousel" data-slide-to="2"></li>
+                                            <li data-target="#carousel" data-slide-to="3"></li>
+                                            <li data-target="#carousel" data-slide-to="4"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/chat_1.jpg" alt="Sushi">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Sushi</h5>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/chat_2.jpg" alt="Maki">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Maki</h5>
+                                            </div>                            
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/chat_3.jpg" alt="Sashimi">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Sashimi</h5>
+                                            </div>            
+                                        </div>
+                                      <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/chat_4.jpg" alt="Yakitori">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Yakitori</h5>
+                                            </div>            
+                                        </div>
+                                      <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/chat_5.jpg" alt="Onigri">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Onigri</h5>
+                                            </div>            
+                                        </div>                                                                                
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    </a>
+                                <!-- ./Carousel -->
+                                </div>
+                            <!-- ./Bootstrap - col-1 -->
+                            </article>
+
+                            <!-- Bootstrap - col-2 -->
+                            <article class="col-12 col-lg-4">
+                                <h2 class="text-center">Les chats à adopter</h2>
+                                <!-- Formulaire -->
+                                <form action="" method="">
+                                    <!-- Choix du chat -->
+                                    <div class="form-group form-control-sm">
+                                        <label for="catname">Choix du chat :</label>
+                                        <select id="catname" class="form-control">
+                                            <option selected disabled>-- Sélectionnez --</option>
+                                            <option>Sushi</option>
+                                            <option>Maki</option>
+                                            <option>Sashimi</option>
+                                            <option>Yakitori</option>
+                                            <option>Onigri</option>
+                                        </select>
+                                    </div>
+                                    <!-- Message -->
+                                    <div class="form-group form-control-sm">                                    
+                                        <label for="message">Raison d'adoption :</label>
+                                        <textarea id="message" class="form-control" placeholder="Saisissez ici les raisons pour lesquelles vous souhaitez adopter ce chat..." rows=6 required></textarea>
+                                    </div>
+                                    <!-- Bouton -->
+                                    <div class="form-group form-control-sm">
+                                        <input type="submit" class="btn btn-success" value="Envoyer">
+                                    </div>
+                                <!-- ./Formulaire -->
+                                </form>
+                            <!-- ./Bootstrap - col-2 -->
+                            </article>
+
+                        <!-- ./Bootstrap - row -->
+                        </div>
+                    <!-- ./Bootstrap - container -->
+                    </div>
+                <!-- ./Section -->
+                </section>
+
+                <section id="our_cats">
+                    <!-- Bootstrap - container -->
+                    <div class="container">
+                        <!-- Bootstrap - row -->
+                        <div class="row">
+                            <!-- Bootstrap - col-1 -->
+                            <article class="col-sm-12 col-lg-9">
+                                <h2>Nos chats à adopter...</h2>
+                                <p>Sed quid est quod in hac causa maxime homines admirentur et reprehendant meum consilium, cum ego idem antea multa decreverim, que magis ad hominis dignitatem quam ad rei publicae necessitatem pertinerent? Supplicationem quindecim dierum decrevi sententia mea. Rei publicae satis erat tot dierum quot C. Mario ; dis immortalibus non erat exigua eadem gratulatio quae ex maximis bellis. Ergo ille cumulus dierum hominis est dignitati tributus.</p>
+                                <p>Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit; consilium vero dare audeamus libere. Plurimum in amicitia amicorum bene suadentium valeat auctoritas, eaque et adhibeatur ad monendum non modo aperte sed etiam acriter, si res postulabit, et adhibitae pareatur.</p>
+                            <!-- ./Bootstrap - col-1 -->
+                            </article>
+
+                            <!-- Bootstrap - col-2 -->
+                            <article class="col-sm-12 col-lg-3">
+                                <figure>
+                                    <img src="img/tete-chat.png" alt="tete-chat">
+                                </figure>
+                            <!-- ./Bootstrap - col-2 -->
+                            </article>
+                        <!-- ./Bootstrap - row -->    
+                        </div>
+                    <!-- ./Bootstrap - container -->
+                    </div>
+                <!-- ./Section -->
+                </section>
+            </main>
+            <footer>
+                <p> &#9400;OhMyCats</p>
+            </footer>
+
+            <!-- JS jQuery -->
+            <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <!-- Bootstrap JS-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <!-- Utilisation JS local -->
+            <script type="text/javascript" src="js/script.js"></script>
+        </body>
+    </html>

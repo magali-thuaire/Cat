@@ -1,0 +1,147 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Merienda', cursive;
+}
+
+/*Titre principal*/
+h1 {
+	color: #FFF;
+	text-shadow: 2px 2px 4px black;
+	font-size: 2.5em;
+	margin: 0 !important;
+}
+
+h2 {
+	color: #2F4073;
+}
+
+section {
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+/*--------------------Header--------------------*/
+
+
+/*-----Barre de navigation-----*/
+
+/*Couleur de la barre de navigation*/
+header > nav {
+	background-color: #061339;
+}
+
+/*Titre de la barre*/
+header > nav a {
+	color: white !important;
+  	font-family: 'Merienda', cursive;
+  	font-size: 1.5em !important;
+  	margin: auto 0 auto 20px;
+}
+
+/*-----Titre de la page-----*/
+
+/*Images de fond*/
+header > #title {
+	background-color: #B9CDFF;
+	background-image: url("../img/background.jpg");
+	height: 180px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 0;
+}
+
+/*--------------------Main--------------------*/
+
+/*-----Section : the_cats-----*/
+
+/*Couleur de fond*/
+main > section#the_cats {
+	background-color: #eee;
+}
+
+/*Titre de la section*/
+main > section#the_cats h2 {
+	font-size: 1.3em;
+}
+
+/*Formulaire*/
+main > section#the_cats form {
+	border-radius: 3px;
+	box-shadow: 0.5px 0.5px 1px 0.5px #ccc;
+	padding: 0.5em;
+
+
+}
+
+/*Texte d'envoi du formulaire*/
+main > section#the_cats form.success {
+	color: #28a745;
+	font-style: italic;
+}
+
+/*Labels*/
+main > section#the_cats form label {
+	font-weight: bold;
+	font-size: 1.2em !important;
+}
+
+/*Bouton "Envoyer*/
+main > section#the_cats form input[type="submit"] {
+	width: 100%;
+}
+
+/*Caroussel*/
+main > section#the_cats #carousel {
+	margin-bottom: 1em;
+		margin-left: 0.5em;
+}
+
+/*-----Section : our_cats-----*/
+
+/*Couleur de fond*/
+main > section#our_cats {
+	background-color: #ddd;
+}
+
+/*Titre de la section*/
+main > section#our_cats h2 {
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+/*Paragraphe de la section*/
+main > section#our_cats p {
+	font-size: 0.9em;
+}
+
+/*Image tête de chat*/
+main > section#our_cats figure > img {
+	width: 100%;
+	background-color: #7885A5;
+	transition: all 1s;
+}
+
+/*Image tête de chat*/
+main > section#our_cats figure > img.hover {
+	background-color: #061339;
+}
+
+
+/*--------------------Footer--------------------*/
+
+/*Barre du footer*/
+footer {
+	background-color: #061339;
+	color: white;
+	height: 50px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+/*Paragraphes du footer*/
+footer p {
+	margin: 0;
+}
